@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">Abeg Clone</string>
+    <string name="explore">Explore</string>
+    <string name="explore_small_letter">explore</string>
+    <string name="cliques">Cliques</string>
+    <string name="dialer">Dialer</string>
+    <string name="timeline">Timeline</string>
+    <string name="profile">Profile</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_abegtag">Search @abegtag</string>
+    <string name="all">All</string>
+    <string name="merch">Merch</string>
+    <string name="badges">Badges</string>
+    <string name="food">Food</string>
+    <string name="giveaways">GIVEAWAYS</string>
+    <string name="top_giveaways">Top Giveaways</string>
+    <string name="inuwa_ibrahim">Inuwa Ibrahim</string>
+    <string name="ibrahim">Ibrahim</string>
+    <string name="ibrajix">\@ibrajix</string>
+    <string name="giveaway_description">₦5,000 giveaway. Series A…</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="invite_your_friends">Invite your friends</string>
+    <string name="invite_helper">Get ₦500 if you send them cash first</string>
+    <string name="send_invite">Send Invite</string>
+    <string name="search_helper">Search for anyone on Abeg</string>
+    <string name="cliques_helper">A better way to spend in groups</string>
+    <string name="messages">Messages</string>
+    <string name="date">14–12–2021</string>
+    <string name="message_title"><b>@ibrajix</b> is requesting 500,000 for funding</string>
+    <string name="pending">Pending</string>
+    <string name="_7_months_ago">7 months ago</string>
+    <string name="ignore">Ignore</string>
+    <string name="accept">Accept</string>
+    <string name="cliques_small">cliques</string>
+    <string name="invite_friends">Invite your friends and start a Clique, you can split payments with your Clique</string>
+    <string name="coming_soon">Coming soon...</string>
+    <string name="timeline_small">timeline</string>
+    <string name="timeline_text"><b>\@ibrajix</b> is hosting a giveaway for funding</string>
+    <string name="winners">10 WINNERS</string>
+    <string name="hundred_thousand">₦100,000</string>
+    <string name="each">each</string>
+    <string name="giveaway_has_ended">Giveaway has ended :(</string>
+    <string name="giveaway_will_end">Giveaway will end in 2hrs</string>
+    <string name="fullname">Inuwa Ibrahim</string>
+
+</resources>

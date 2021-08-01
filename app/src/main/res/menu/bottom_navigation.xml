@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/exploreFragment"
+        android:icon="@drawable/explore_bottom_nav_selector"
+        android:title="@string/explore"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/cliquesFragment"
+        android:icon="@drawable/cliques_bottom_nav_selector"
+        android:title="@string/cliques"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/dialerFragment"
+        android:icon="@drawable/dialer_bottom_nav_selector"
+        android:title="@string/dialer"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/timelineFragment"
+        android:icon="@drawable/timeline_bottom_nav_selector"
+        android:title="@string/timeline"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile_bottom_nav_selector"
+        android:title="@string/profile"
+        android:menuCategory="secondary" />
+
+</menu>
