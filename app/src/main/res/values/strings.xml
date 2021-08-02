@@ -46,5 +46,33 @@
     <string name="giveaway_has_ended">Giveaway has ended :(</string>
     <string name="giveaway_will_end">Giveaway will end in 2hrs</string>
     <string name="fullname">Inuwa Ibrahim</string>
+    <string name="bio">Hey!, I\'m Ibrahim!</string>
+    <string name="_2_smiles">2 smiles</string>
+    <string name="two_hundrend">200</string>
+    <string name="smiles">Smiles</string>
+    <string name="followers">Followers</string>
+    <string name="do_giveaway">Do giveaway</string>
+    <string name="transactions">Transactions</string>
+    <string name="no_bagdes_yet">No Badges yet</string>
+    <string name="badges_helper">You can get badges by sending cash to people.</string>
+    <string name="no_transaction_yet">No Transaction yet</string>
+    <string name="no_transaction_helper">Your transactions will appear here</string>
+
+
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="star">*</string>
+    <string name="btn_backspace">&lt;</string>
+    <string name="what_is_it_for">what is it for?</string>
+    <string name="request">Request</string>
+    <string name="Send">Send</string>
 
 </resources>

@@ -30,7 +30,11 @@
         android:id="@+id/dialerFragment"
         android:name="com.ibrajix.abegclone.ui.fragments.DialerFragment"
         android:label="fragment_dialer"
-        tools:layout="@layout/fragment_dialer" />
+        tools:layout="@layout/fragment_dialer" >
+        <action
+            android:id="@+id/action_dialerFragment_to_messagesFragment"
+            app:destination="@id/messagesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/timelineFragment"
         android:name="com.ibrajix.abegclone.ui.fragments.TimelineFragment"
@@ -38,6 +42,9 @@
         tools:layout="@layout/fragment_timeline" >
         <action
             android:id="@+id/action_timelineFragment_to_messagesFragment"
+            app:destination="@id/messagesFragment" />
+        <action
+            android:id="@+id/action_timelineFragment_to_messagesFragment2"
             app:destination="@id/messagesFragment" />
     </fragment>
     <fragment

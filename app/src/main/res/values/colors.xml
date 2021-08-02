@@ -30,5 +30,7 @@
     <color name="teal_light_btn">#E6A7FFEB</color>
     <color name="purple_light_btn">#E6D1C4E9</color>
 
+    <color name="dark_dialer_bg">#212121</color>
+
 
 </resources>

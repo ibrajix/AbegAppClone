@@ -1,14 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/main_purple"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.fragments.DialerFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ic_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_menu_white"
+            app:layout_constraintEnd_toStartOf="@+id/img_logo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img_logo" />
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="112dp"
+            android:src="@drawable/ic_abeg_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ic_comment"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.028" />
+
+        <ImageView
+            android:id="@+id/ic_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_comments_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img_logo" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ic_comment"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/ic_menu"
+            app:layout_constraintTop_toBottomOf="@+id/img_logo"
+            app:layout_constraintVertical_bias="0.0">
+
+            <EditText
+                android:id="@+id/password_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/main_purple"
+                android:enabled="false"
+                android:minHeight="48dp"
+                android:paddingLeft="8dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/eina_bold"
+                android:textSize="40sp"
+                android:paddingRight="8dp"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TableLayout
+                android:id="@+id/keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/main_purple"
+                android:orientation="vertical"
+                android:showDividers="beginning|middle|end">
+
+                <TableRow style="@style/keyboard_row">
+
+                    <TextView
+                        android:id="@+id/t9_key_1"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_one" />
+
+                    <TextView
+                        android:id="@+id/t9_key_2"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_two" />
+
+                    <TextView
+                        android:id="@+id/t9_key_3"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_three" />
+                </TableRow>
+
+                <TableRow style="@style/keyboard_row">
+
+                    <TextView
+                        android:id="@+id/t9_key_4"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_four" />
+
+                    <TextView
+                        android:id="@+id/t9_key_5"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_five" />
+
+                    <TextView
+                        android:id="@+id/t9_key_6"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_six" />
+                </TableRow>
+
+                <TableRow style="@style/keyboard_row">
+
+                    <TextView
+                        android:id="@+id/t9_key_7"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_seven" />
+
+                    <TextView
+                        android:id="@+id/t9_key_8"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_eight" />
+
+                    <TextView
+                        android:id="@+id/t9_key_9"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_nine" />
+                </TableRow>
+
+                <TableRow style="@style/keyboard_row">
+
+                    <TextView
+                        android:id="@+id/t9_key_clear"
+                        style="@style/keyboard_button"
+                        android:fontFamily="@font/eina_bold"
+                        android:text="@string/star"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/t9_key_0"
+                        style="@style/keyboard_number_button"
+                        android:text="@string/number_zero" />
+
+                    <TextView
+                        android:id="@+id/t9_key_backspace"
+                        style="@style/keyboard_button"
+                        android:fontFamily="@font/eina_bold"
+                        android:text="@string/btn_backspace"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="28sp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/et_input"
+            android:fontFamily="@font/eina_bold"
+            android:hint="@string/what_is_it_for"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_round_invite"
+            android:fontFamily="@font/eina_bold"
+            android:text="@string/request"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/editText2"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_round_invite"
+            android:fontFamily="@font/eina_bold"
+            android:text="@string/Send"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/editText2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button6"
+            app:layout_constraintTop_toTopOf="@+id/button6" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
