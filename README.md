@@ -1,6 +1,6 @@
 # Abeg App Clone
 
-## :wave: Hello! This is a clone of the popular 'Cash App' Like App - 'Abeg' (Android)
+## :wave: This is a clone of the popular 'Cash App' Like App called Abeg
 
 <p float="left">
 
@@ -12,7 +12,9 @@
 </p>
 
 ## DOWNLOAD
-https://bit.ly/3rPSutW
+https://bit.ly/3iiSlfJ
+
+Its perfectly safe to download. 😙
 
 ## CONTACT ME
 https://linktr.ee/Ibrajix
